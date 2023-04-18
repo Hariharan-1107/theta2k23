@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Theta 2k23</title>
+		<link rel="icon" type="image/png" href="/images/logo.png">
+    </head>
+<body>
+    <div class="login-wrapper">
+        <form class="login-form" action="/login" method="post">
+          <h2>Login</h2>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="cpassword" required>
+          <button type="submit">Login</button>
+        </form>
+    </div>
+    <style>
+        .login-wrapper {
+  position: relative;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-form h2 {
+  margin-top: 0;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: darkblue;
+}
+
+    </style>      
+</body>
+    </html>
